@@ -161,10 +161,14 @@
 
     .ds-logo-1x {
       display: none !important;
+      width: 2px;
+      height: 2px;
     }
     
     .ds-logo-2x {
       display: block !important;
+      width: 2px;
+      height: 2px;
     }
 
   } 
@@ -230,6 +234,8 @@
   
   .ds-logo img {
     vertical-align: bottom;
+    height: 150px;
+    width: 150px;
   }
   
   .ds-logo-1x {
@@ -1483,6 +1489,8 @@
   .testimonials {
     background-color: #f2f3f7;
     padding: 30px 0;
+    align-items: center;
+    
   }
 
   .ds-testimonials-icon {
@@ -1497,12 +1505,15 @@
   .ds-testimonials > div {
     text-align: center;
     width: 100%;
+    
   }
   .ds-testimonials > h3{
 	 font-size:34px;
+   
   }	  
   .ds-testimonials blockquote {
     font-size: 15px;
+    
     
     margin: 60px 0 20px;
 	line-height: 30px;
@@ -1648,7 +1659,7 @@
   }
 
 
-
+h
  
 
   @media (max-width: 1199px) {
